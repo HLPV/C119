@@ -1,0 +1,39 @@
+body{
+    text-align: center ;
+    background-color:crimson;
+    color:ivory;
+    font-size: 25px;
+
+    }
+  
+  #div1{
+    float: right;
+  }
+  
+  h1{
+    color: floralwhite;
+    background-color: black;
+  }
+  
+  canvas 
+    {
+     border:5px solid white;
+     border-radius: 20px;
+     animation-name: example;
+     animation-duration: 4s;
+     margin-top: 50px;
+     animation-iteration-count: infinite;
+      
+  }
+  @keyframes example {
+  from{
+    box-shadow: 1px 1px 38px black}
+    to{
+        box-shadow: 1px 1px 38px greenyellow;
+    }
+
+  }
+    
+  
+  
+  
